@@ -1,9 +1,8 @@
 print("1")
-# This is a sample Python script.
 
+# This is a sample Python script.
 # Press Ctrl+F5 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -26,11 +25,41 @@ def print_hi(name):
 def get_name(name):
     print(name)
 
+def get_my_name(name):
+    print(name)
+
+def get_location(location):
+    print(location)
+
+def get_email(email):
+    print(email)
+
+get_my_name("Ram charan")
 
 # Press the green button in the gutter to run the script.
 print("5")
 if __name__ == '__main__':
     print("2")
+    get_location("Laxmipur")
+    get_email("tejavathvaishnavi@gmail.com")
+    name = input("Enter your name: ")
+    age = int(input("Enter your age: "))
+
+    if age < 13:
+        print("child")
+    elif age < 18:
+        print("Teen")
+    elif age < 60:
+        print("Adult")
+    else:
+        print("Senior Citizen")
+
+    marks = 80
+    attendance = 75
+
+    if marks >= 50 and attendance >= 75:
+        print("pass")
+
     print_hi('vaishu')
     print("***")
     get_name('ravi mama')
