@@ -21,6 +21,10 @@ def print_hi(name):
     print(b)
     result = a*b
     print("Multiplication of 5 and 6 is: 3000",result)
+    c = 5
+    d = 5
+    result = c-d
+    print("Substraction of 5 and 5 is:",result)
 
 def get_name(name):
     print(name)
