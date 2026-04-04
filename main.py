@@ -30,10 +30,16 @@ def get_name(name):
     print(name)
 
 def get_my_name(name):
+    get_name("shiva")
     print(name)
 
+
+
 def get_location(location):
+    get_name("karthikeya")
     print(location)
+
+get_location("Hyderabad")
 
 def get_email(email):
     print(email)
@@ -57,11 +63,11 @@ if __name__ == '__main__':
         print("Adult")
     else:
         print("Senior Citizen")
-
+    print("9")
     marks = 80
     attendance = 75
 
-    if marks >= 50 and attendance >= 75:
+    if (marks >= 50) and (attendance >= 75):
         print("pass")
 
     print_hi('vaishu')
